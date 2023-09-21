@@ -27,9 +27,15 @@ class HBNBCommand(cmd.Cmd):
     
     def do_create(self, arg):
         """
+<<<<<<< HEAD
         Usage: create <Class name> <param 1> <param 2> <param 3>...
         arg: <key name>=<value> 
         """
+=======
+        Usage: katcreayi <class> <key1> = <value1> <key2> = <value2>...
+	line: halawah halawah
+	"""
+>>>>>>> 35faa17f7548c9e9df360a4461f958523a69897c
 
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
